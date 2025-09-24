@@ -15,7 +15,7 @@ public class CorsConfig {
 
         // ✅ Allowed origins (frontend domain)
         config.addAllowedOrigin("http://localhost:3000"); // React dev server
-        config.addAllowedOrigin("https://your-frontend.vercel.app"); // production
+        config.addAllowedOrigin("https://get-citationsv2.vercel.app"); // production
 
         // ✅ Allowed headers and methods
         config.addAllowedHeader("*");
